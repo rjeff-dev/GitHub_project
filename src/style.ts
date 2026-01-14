@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle } from 'styled-components'
 
 const EstiloGlobal = createGlobalStyle`
   * {
@@ -11,6 +11,7 @@ const EstiloGlobal = createGlobalStyle`
   body {
     font-family: 'Inter', sans-serif;
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   @media (max-width: 768px) {
@@ -40,10 +41,5 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     display: block;
     max-width: 90%;
-
-    img {
-      margin: 16px auto;
-      max-width: 100%;
-    }
   }
 `
