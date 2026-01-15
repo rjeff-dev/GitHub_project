@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const GithubSecao = styled.div`
   display: grid;
@@ -8,12 +8,12 @@ export const GithubSecao = styled.div`
 
   img {
     width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    height: 157px;
   }
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    height: auto;
+    width: 100%;
   }
 `
